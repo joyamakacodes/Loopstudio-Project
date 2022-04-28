@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Fraunces:wght@700&family=Josefin+Sans:ital,wght@0,400;1,300&display=swap');
+header{
+    background-image: url(/images/desktop/image-hero.jpg);
+    padding: 1em 7em 1em 7em;
+    background-repeat: no-repeat;
+    color: white;
+}
+.image{
+    padding-top: 5em;
+}
+.anchor{
+    list-style: none;
+    display: flex;
+    float: right;
+    gap: 2em;
+    font-family: 'Alata', sans-serif;
+    margin-top: -1em;
+}
+h1{
+    margin-top: 1em;
+    border: 3px inset white;
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Alata', sans-serif;
+    padding: 0% 5px 5px 5px;
+    position: relative;
+    width: 600px;
+}
+h2{
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    color:  hsl(0, 0%, 41%);
+}
+.para{
+    color: hsl(0, 0%, 55%);
+}
+.main{
+    padding: 5% 0% 5% 5%;
+    
+}
+.leader{
+    display: flex;
+}
+.VR{
+    margin-top: 30%;
+    border: 5px solid white;
+    border-style: none;
+    background-color: rgb(253, 252, 252);
+    background-clip: padding-box;
+    margin-left: -7em;
+    padding: 6em;
+}
+.creation{
+    display: flex;
+    padding: 4em 0 2em 0;
+
+}
+button{
+    margin-left: 45em;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.images{
+    padding: 10px;
+}    
+h3{
+    color: white;
+}
+.div1{
+    background-image: url(/images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    padding: 30% 7em 1em 3em;
+}
+.div2{
+    background-image: url(/images/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    padding: 30% 7em 1em 2em;
+}
+.div3{
+    background-image: url(/images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    padding: 30% 7em 1em 2em;
+}
+.div4{
+    background-image: url(/images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    padding: 30% 7em 1em 4em;
+}
+.first{
+    display: flex;
+    gap: 2em;
+}
+.div5{
+    background-image: url(/images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    padding: 30% 7em 1em 2em;
+}
+.div6{
+    background-image: url(/images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    padding: 30% 7em 1em 2em;
+}
+.div7{
+    background-image: url(/images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    padding: 30% 7em 1em 2em;
+}
+.div8{
+    background-image: url(/images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    padding: 30% 7em 1em 3em;
+}
+.second{
+    display: flex;
+    gap: 1em;
+}
+footer{
+    background-color: black;
+    padding: 2em 7em 5em;
+    color: white;
+}
+.about{
+    list-style: none;
+    display: flex;
+    float: left;
+    gap: 2em;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    margin-left: -3em;
+
+}
+.social{
+    float: right;
+    margin-top: -2em;
+}
+.img{
+    padding-right: 3em;
+}
