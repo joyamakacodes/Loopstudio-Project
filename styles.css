@@ -1,139 +1,251 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Fraunces:wght@700&family=Josefin+Sans:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, body, html{
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    margin:0;
+    padding: 0;
+}
 header{
     background-image: url(/images/desktop/image-hero.jpg);
-    padding: 1em 7em 1em 7em;
-    background-repeat: no-repeat;
-    color: white;
-}
-.image{
-    padding-top: 5em;
-}
-.anchor{
-    list-style: none;
-    display: flex;
-    float: right;
-    gap: 2em;
-    font-family: 'Alata', sans-serif;
-    margin-top: -1em;
-}
-h1{
-    margin-top: 1em;
-    border: 3px inset white;
-    font-size: 70px;
-    font-weight: 400;
-    font-family: 'Alata', sans-serif;
-    padding: 0% 5px 5px 5px;
-    position: relative;
-    width: 600px;
-}
-h2{
-    font-weight: 600;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px;
-    color:  hsl(0, 0%, 41%);
-}
-.para{
-    color: hsl(0, 0%, 55%);
-}
-.main{
-    padding: 5% 0% 5% 5%;
+    background-size:cover;
+    background-position: bottom;
+    padding: 3em;
     
 }
-.leader{
-    display: flex;
-}
-.VR{
-    margin-top: 30%;
-    border: 5px solid white;
-    border-style: none;
-    background-color: rgb(253, 252, 252);
-    background-clip: padding-box;
-    margin-left: -7em;
-    padding: 6em;
-}
-.creation{
-    display: flex;
-    padding: 4em 0 2em 0;
+
+.anchor{
+    visibility: hidden;
 
 }
-button{
-    margin-left: 45em;
-    margin-top: 10px;
-    padding: 10px 20px;
-}
-.images{
-    padding: 10px;
-}    
-h3{
+header>h1{
+    font-size: 30px;
+    font-weight: 400;
+    border: 3px inset white ;
     color: white;
+    width: 100%;
+    font-family: 'Josefin Sans';
+    padding: 2em;
+}
+.hamburger{
+    float: right;
+}
+.main{
+    margin: 5em 2em;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1em;
+    color: hsl(0, 0%, 41%);
+}
+.VR{
+  margin: 2em;
+  color: hsl(0, 0%, 41%);
+}
+
+.btn{
+    visibility: hidden;
 }
 .div1{
-    background-image: url(/images/desktop/image-deep-earth.jpg);
+    background-image: url(/images/mobile/image-deep-earth.jpg);
     background-repeat: no-repeat;
-    padding: 30% 7em 1em 3em;
+    background-size: contain;
 }
 .div2{
-    background-image: url(/images/desktop/image-night-arcade.jpg);
+    background-image: url(/images/mobile/image-night-arcade.jpg);
     background-repeat: no-repeat;
-    padding: 30% 7em 1em 2em;
+    background-size: contain;
 }
 .div3{
-    background-image: url(/images/desktop/image-soccer-team.jpg);
+    background-image: url(/images/mobile/image-soccer-team.jpg);
     background-repeat: no-repeat;
-    padding: 30% 7em 1em 2em;
+    background-size: contain;
 }
 .div4{
-    background-image: url(/images/desktop/image-grid.jpg);
+    background-image: url(/images/mobile/image-grid.jpg);
     background-repeat: no-repeat;
-    padding: 30% 7em 1em 4em;
-}
-.first{
-    display: flex;
-    gap: 2em;
+    background-size: contain;
+    margin-bottom: -1em;
 }
 .div5{
-    background-image: url(/images/desktop/image-from-above.jpg);
+    background-image: url(/images/mobile/image-from-above.jpg);
     background-repeat: no-repeat;
-    padding: 30% 7em 1em 2em;
+    background-size: contain;
 }
 .div6{
-    background-image: url(/images/desktop/image-pocket-borealis.jpg);
+    background-image: url(/images/mobile/image-pocket-borealis.jpg);
     background-repeat: no-repeat;
-    padding: 30% 7em 1em 2em;
+    background-size: contain; 
 }
 .div7{
-    background-image: url(/images/desktop/image-curiosity.jpg);
+    background-image: url(/images/mobile/image-curiosity.jpg);
     background-repeat: no-repeat;
-    padding: 30% 7em 1em 2em;
+    background-size: contain;
 }
 .div8{
-    background-image: url(/images/desktop/image-fisheye.jpg);
+    background-image: url(/images/mobile/image-fisheye.jpg);
     background-repeat: no-repeat;
-    padding: 30% 7em 1em 3em;
+    background-size: contain;
+}
+@media (min-width:768px)
+{.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8{
+    visibility: hidden;
+}
+}
+.first img{
+    visibility: hidden;
+}
+.second img{
+    visibility: hidden; 
+}
+.first{
+    margin: 1em 1em 0 1em;
 }
 .second{
-    display: flex;
-    gap: 1em;
+    margin: 1em 1em 0 1em;
+}
+h3{
+    margin-top: -30em;
+    color: white;
+    padding: 2em 3em 2em 2em;
+}
+.button{
+    margin-top: 1em;
+    margin-left: 5em;
+    padding: 0.5em 3em;
+    background-color: white;
 }
 footer{
     background-color: black;
-    padding: 2em 7em 5em;
+    text-align: center;
+    padding: 3em;
     color: white;
 }
+
 .about{
     list-style: none;
-    display: flex;
-    float: left;
-    gap: 2em;
-    font-family: 'Alata', sans-serif;
-    color: white;
-    margin-left: -3em;
-
+    padding: 2em;
+    
 }
 .social{
-    float: right;
-    margin-top: -2em;
+    margin-top: 1em;
 }
-.img{
-    padding-right: 3em;
+
+@media (min-width:768px) {
+    body{
+        font-size: 15px;
+        font-family: 'Josefin Sans';
+    }
+    header{
+        background-size: cover;
+        padding: 7em;
+    }
+    header h1{
+        font-size: 5em;
+        width: 70%;
+        padding: 1em;
+        margin-top: 2em;
+    }
+    .hamburger{
+        visibility: hidden;
+    }
+    .anchor{
+        visibility: visible;
+        list-style: none;
+        color: white;
+        display: flex;
+        float: right;
+        gap: 2em;
+        margin-top: -1em;
+    }
+    .main{
+        margin: 7em 4em 7em 8em;
+    }
+    .leader{
+        display: flex;
+    }
+    h2{
+       text-align: center; 
+       font-family: 'Josefin Sans';
+    }
+    h3{
+        visibility: visible;
+        font-size: 20px;
+        position: relative;
+        top: 23em;
+ 
+     } 
+    .VR{
+        background-color: white;
+        position: relative;
+        top: 10em;
+        right: 11em;
+        padding: 5em 5em 0 5em;
+    }
+    .creation{
+        margin-top: 7em;
+        display: flex;
+    }
+    .btn{
+        visibility: inherit;
+        height: 40px;
+        padding: 1em 3em;
+        position: relative;
+        right: -56em;
+        margin-top: 1em;
+        background-color: white;
+    }
+    .first img {
+        visibility: visible;
+    }
+    .first{
+        display: flex;
+        gap: 2em;
+        margin-top: 5em;
+
+ 
+    }
+    .second img{
+        visibility: visible; 
+    }
+    .second{
+        display: flex; 
+        gap: 2em;
+        margin-bottom: 30em;
+        margin-top: 34em;
+    }
+    .button{
+        visibility: hidden;
+    }
+    footer{
+        text-align: inherit;
+        background-color: black;
+        padding: 3em 3em 3em 7em;
+    } 
+          
+    .about{
+        color: white;
+        list-style: none;
+        display: flex;
+        gap: 2em;
+        margin-left: -2em;
+    }
+    .social{
+        color: white;
+        margin-left: 60em;
+        margin-top: -7em;
+    }   
+    .img{
+        margin-right: -5em;
+        padding-right: 8em;
+        padding-bottom: 2em;
+    }
 }
