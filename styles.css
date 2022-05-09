@@ -132,11 +132,12 @@ footer{
 
 .about{
     list-style: none;
-    padding: 2em;
+    line-height: 3em;
     
 }
 .social{
     margin-top: 1em;
+    line-height: 2em;
 }
 
 @media (min-width:768px) {
